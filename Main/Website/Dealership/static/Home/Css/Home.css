@@ -48,5 +48,57 @@ nav ul li:last-child a:hover {
 
 .carousel-item img {
     height: 400px;
-    object-fit:contain;
+    object-fit: contain;
+    width: 100%;
+}
+
+main {
+    background-color: #3F4F44;
+    padding: 20px;
+    color: #fff;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #A27B5C;
+}
+
+.card {
+    background-color: #2C3930;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #A27B5C;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #DCD7C9;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-primary:active {
+    background-color: #004085;
+    border-color: #003366;
 }
