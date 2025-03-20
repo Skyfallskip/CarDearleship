@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DCD7C9;
+}
+
+nav {
+    background-color: #2C3930;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #A27B5C;
+    color: #2C3930;
+}
+
+nav ul li:last-child {
+    margin-left: auto;
+}
+
+nav ul li:last-child a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit:contain;
+}
